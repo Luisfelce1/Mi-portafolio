@@ -46,11 +46,33 @@ a { text-decoration: none}
     width: 100%;
 }
 
-.slider_banner .img {
+.slider_banner .banner img {
     vertical-align: top;
     width: 100%;
     position: absolute;
     top: 0;
     left: 100%;
     
+}
+
+.slider_banner .flecha-banner {
+
+    font-size: 35px;
+    line-height: 35px;
+    color: rgba(0,0,0,.2);
+    position: absolute;
+    top: 50%;
+    z-index: 1100%;
+}
+
+.slider_banner .flecha-banner:hover {
+    color:rgba(0,0,0,.5);
+}
+
+.slider_banner .anterior {
+    left: 20px;
+}
+
+.slider_banner .siguiente {
+    right: 20px;
 }
