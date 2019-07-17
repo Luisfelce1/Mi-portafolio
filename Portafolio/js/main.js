@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     var banner= {
-        padre: $('#banner'),
+        padre: $('#banner')
     }
 console.log('#banner');
     banner.padre.children('.slide').first().css({
